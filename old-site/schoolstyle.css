@@ -1,0 +1,46 @@
+header {
+  background-color: #53a1b8;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 30px;
+  text-decoration: underline;
+}
+h1 {
+  margin-bottom: 0;
+}
+nav {
+  background-color: #8fd6bf;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+}
+nav a {
+  color: #904cbd;
+  font-size: 18px;
+  font-weight: bold;
+}
+body {
+  background-color: #908cbe;
+}
+p {
+  text-align: center;
+}
+li {
+  text-align: center;
+}
+img {
+  display: block;
+  margin: auto;
+}
+h2 {
+  text-align: center;
+  font-family: cursive;
+}
+h4 {
+  text-align: center;
+}
+.triton {
+  text-align: left;
+}
