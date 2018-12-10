@@ -177,10 +177,15 @@ nav ul li a {
 	text-align: center;
 }
 
-
 #contact p {
 	font-size: 24px;
 	text-align: center;
+}
+
+#contact #email a {
+	font-size: 24px;
+	text-decoration: none;
+	color: #ffffff;
 }
 
 #contact a {
