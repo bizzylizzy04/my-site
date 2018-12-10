@@ -1,11 +1,18 @@
 /***** BASE STYLES *****/
 body {
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #2b2b2b;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	background-color: #1f202b;
 }
 
-#about, #work, #contact {
-	height: 600px;
+#portfolio {
+	height: 1550px;
+	padding: 0 100px;
+}
+
+#contact {
+	height: 400px;
+	padding: 0 100px;
 }
 
 /***** GRID *****/
@@ -27,23 +34,28 @@ body {
 }
 
 /***** HEADER *****/
-
 header {
 	height: 800px;
-	background: url('../img/full-background.png');
+	background: url('../img/hero-background.png');
 	background-size: cover;
 }
+ header h2 {
+	color: #ffffff;
+	padding: 45px;
+ }
 
-header h1 {
-	font-family: 'Lora', serif;
-	padding: 65px 0 65px 25px;
-	color: #bbc085;
-	font-size: 30px;
-}
+ header h1 {
+ 	font-family: 'Source Code Pro', sans-serif;
+	font-size: 70px;
+ }
 
-nav {
+ header h1 span {
+ 	color: #fa0075;
+ }
+
+ nav {
 	float: right;
-	padding: 75px 25px;
+	padding: 45px;
 }
 
 nav ul li {
@@ -51,120 +63,124 @@ nav ul li {
 }
 
 nav ul li a {
-	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 18px;
-	color: #828282;
-	padding-left: 80px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+	padding-left: 25px;
 }
 
-header h2 {
-	width: 1000px;
-	clear: both;
-	font-family: 'Lora', serif;
-	font-size: 72px;
-	line-height: 80px;
-	color: #9b9b9b;
-	padding: 20px 0 20px 25px;
-}
-
-header h2 span {
-	color: #2b2b2b;
-}
-
-/***** ABOUT *****/
-
-#about .full-width {
-	padding: 80px 0;
-}
-
-#about h2 {
-	font-family: 'Lora', serif;
-	font-size: 36px;
-	padding-left: 50px;
-}
-
-#about p {
-	font-size: 21px;
-	color: #7f7f7f;
-	line-height: 40px;
-	padding-left: 50px;
-	padding-right: 50px;
-}
-
-/***** WORK *****/
-
-#work {
-	background-color: #f9ceb7;
+/***** PORTFOLIO *****/
+#portfolio {
 	text-align: center;	
 }
 
-#work .full-width {
+#portfolio .full-width {
 	padding: 115px 0;
 }
 
-#work img {
-	padding-bottom: 30px;
-}
-
-#work h3 {
+#portfolio h2 {
+	font-family: 'Source Code Pro', sans-serif;
 	font-size: 24px;
 	line-height: 32px;
-	width: 190px;
-	margin: 0 auto;
+	color: #fa0075;
 }
 
-#work p {
-	font-family: 'Lora', serif;
-	font-size: 18px;
-	line-height: 30px;
-	padding: 0 50px;
+.individual-portfolio .half-width div {
+	padding: 20px;
 }
 
-#work h3 a {
+#portfolio .half-width div{
+	width: 580px;
+}
+.individual-portfolio h3 {
+	font-weight: bold:
+}
+
+.individual-portfolio h3, p {
+	font-size: 24px;
+}
+
+.individual-portfolio img {
+	border: 1px solid;
+	border-color: #b7b7b7;
+}
+
+.individual-portfolio #jubliee div {
+	float: right;
+}
+
+.individual-portfolio #holstee div {
+	float: left;
+}
+
+#portfolio div {
+	overflow: auto;
+}
+
+#portfolio h3 a {
 	text-decoration: none;
+	color: #ffffff;
+}
+
+/***** ABOUT *****/
+#about {
+	height: 550px;
+	background: url('../img/about-me.png');
+	background-size: cover;
+}
+
+#about h2 {
+	font-family: 'Source Code Pro', sans-serif;
+	font-weight: 'semibold';
+	font-size: 36px;
+	text-align: center;
+	color: #fa0075;
+	padding-top: 20px;
+}
+
+#about h3 {
+	font-weight: bold;
+	font-size: 24px;
+	color: #1f202b;
+	padding-left: 100px;
+}
+
+#about p {
+	font-size: 24px;
+	color: #1f202b;
+	padding-left: 100px;
 }
 
 /***** CONTACT *****/
 #contact {
-	background-color: #ebebeb;
+	background-color: #1f202b;
+	height: 400px;
 }
 
 #contact .full-width {
 	padding: 110px 0;
 }
 
-#contact img#contact-img {
-	margin-left: 25px;
-	border: 12px solid #ffffff;
-}
-
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
-	padding-left: 115px;
-}
-
-#contact #envelope {
-	padding:  0 10px 0 115px;
-}
-
 #contact h2 {
-	font-family: 'Lora', serif;
+	font-family: 'Source Code Pro', sans-serif;
+	font-weight: 'semibold';
 	font-size: 36px;
+	text-align: center;
+	color: #fa0075;
 	line-height: 44px;
 }
 
-#contact #email-header {
-	font-size: 32px;
-	font-weight: 400;
-	line-height: 44px;
-	margin: -30px 0 5px 0;
-}
-
-#contact #socialmedia-header {
+#contact h3 {
 	font-weight: bold;
-	font-size: 29px;
-	line-height: 44px;
-	margin: 40px 0 0 0;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+#contact p {
+	font-size: 24px;
+	text-align: center;
 }
 
 #contact a {
@@ -184,5 +200,18 @@ header h2 span {
 
 #contact ul img {
 	font-size: 32px;
-	padding-right: 48px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+#copyright p {
+	text-align: center;
+}
+
+footer #copyright p {
+	font-size: 18px;
+}
+
+footer div {
+	padding: 100 100px;
 }

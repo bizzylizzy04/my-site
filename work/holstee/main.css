@@ -1,0 +1,75 @@
+body {
+	font-family: Quattrocento;
+	margin: auto;
+	overflow: auto;
+}
+span {
+	font-family: Oswald;
+}
+aside {
+	float: left;
+	text-align: center;
+	width: 230px;
+	height: auto;
+}
+.block {
+	background: #ff4d4d;
+	height: 404px;
+	padding: 18px;
+	font-size: 24px;
+}
+.sq-one {
+	border-left: solid 5px #D3D3D3;
+	background: #4747d1;
+	height: 180px;
+	padding: 40px 20px 0px 20px;
+	font-size: 18px;
+}
+.sq-two {
+	border-left: solid 5px #D3D3D3;
+	background: #66FFFF;
+	height: 175px;
+	padding: 40px 20px 0px 20px;
+	font-size: 20px;	
+}
+.sq-three {
+	border-bottom: solid 5px #D3D3D3;
+	border-left: solid 5px #D3D3D3;
+	background: #009999;
+	height: 185px;
+	padding: 40px 20px 0px 20px;
+	font-size: 18px;
+}
+.sq-four {
+	border-top: solid 5px #D3D3D3;
+	border-right: solid 5px #D3D3D3;
+	background: #4747d1;
+	height: 180px;
+	padding: 40px 20px 0px 20px;
+	font-size: 18px;
+}
+.sq-five {
+	border-right: solid 5px #D3D3D3;
+	background: #66FFFF;
+	height: 180px;
+	padding: 40px 20px 0px 20px;
+	font-size: 18px;
+}
+.sq-six {
+	border-right: solid 5px #D3D3D3;
+	background: #009999;
+	height: 180px;
+	padding: 40px 20px 0px 20px;
+	font-size: 18px;
+}
+.span-font {
+	font-size: 16px;
+}
+#life {
+	border-top: solid 5px #D3D3D3;
+	border-left: solid 5px #D3D3D3;
+}
+#people {
+	border-right: solid 5px #D3D3D3;
+	border-bottom: solid 5px #D3D3D3;
+}
