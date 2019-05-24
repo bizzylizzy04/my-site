@@ -1,0 +1,226 @@
+/***** BASE STYLES *****/
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	background-color: #1f202b;
+}
+
+#portfolio {
+	height: 1450px;
+	padding: 0 100px;
+}
+
+#contact {
+	height: 400px;
+	padding: 0 100px;
+}
+
+/***** GRID *****/
+/***** we want the sections to stack flush on top of one another *****/
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/***** neither half or third width require margin settings *****/
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/***** HEADER *****/
+header {
+	height: 800px;
+	background: url('../img/hero-background.png');
+	background-size: cover;
+}
+ header h2 {
+	color: #ffffff;
+	padding: 45px;
+ }
+
+ header h1 {
+ 	font-family: 'Source Code Pro', sans-serif;
+	font-size: 4.375em;
+ }
+
+ header h1 span {
+ 	color: #fa0075;
+ }
+
+ nav {
+	float: right;
+	padding: 45px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.875em;
+	color: #ffffff;
+	padding-left: 25px;
+}
+
+/***** PORTFOLIO *****/
+#portfolio {
+	text-align: center;	
+}
+
+#portfolio .full-width {
+	padding: 115px 0;
+}
+
+#portfolio h2 {
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 1.5em;
+	line-height: 32px;
+	color: #fa0075;
+}
+
+.individual-portfolio .half-width div {
+	padding: 20px;
+}
+
+#portfolio .half-width div{
+	width: 580px;
+}
+.individual-portfolio h3 {
+	font-weight: bold:
+}
+
+.individual-portfolio h3, p {
+	font-size: 1.5em;
+}
+
+.individual-portfolio img {
+	border: 1px solid;
+	border-color: #b7b7b7;
+}
+
+.individual-portfolio #jubliee div {
+	float: right;
+}
+
+.individual-portfolio #holstee div {
+	float: left;
+}
+
+#portfolio div {
+	overflow: auto;
+}
+
+#portfolio h3 a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/***** ABOUT *****/
+#about {
+	height: 550px;
+	background: url('../img/about-me.png');
+	background-size: cover;
+}
+
+#about h2 {
+	font-family: 'Source Code Pro', sans-serif;
+	font-weight: 'semibold';
+	font-size: 2.25em;
+	text-align: center;
+	color: #fa0075;
+	padding-top: 20px;
+}
+
+#about h3 {
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #1f202b;
+	padding-left: 100px;
+}
+
+#about p {
+	font-size: 1.5em;
+	color: #1f202b;
+	padding-left: 100px;
+}
+
+/***** CONTACT *****/
+#contact {
+	background-color: #1f202b;
+	height: 400px;
+}
+
+#contact .full-width {
+	padding: 110px 0;
+}
+
+#contact h2 {
+	font-family: 'Source Code Pro', sans-serif;
+	font-weight: 'semibold';
+	font-size: 36px;
+	text-align: center;
+	color: #fa0075;
+	line-height: 44px;
+}
+
+#contact h3 {
+	font-weight: bold;
+	font-size: 2.25em;
+	text-align: center;
+}
+
+#contact p {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#contact #email a {
+	font-size: 1em;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#contact a {
+	text-decoration: none;
+	color: #c49075;
+	font-weight: bold;
+	font-size: 1.75em;
+}
+
+#contact ul {
+	list-style: none;
+}
+
+#contact ul li {
+	display: inline-block;
+}
+
+#contact ul img {
+	font-size: 2em;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+#copyright p {
+	text-align: center;
+}
+
+footer #copyright p {
+	font-size: 1.125em;
+}
+
+footer div {
+	padding: 100 100px;
+}
